@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Stolen Gun Data in Houston, Texas</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Stolen Gun Data in Houston, Texas">
+  <meta name="author" content="">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>Stolen Gun Data in Houston, Texas</h1>
+    <h2>2008 - 2012</h2>
+    <p><br/></p>
+  </hgroup>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>Stolen Gun Data In Houston</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>In 2012, The Houston Chronicle compiled data on guns that were stolen in the Houston area.  They determined that, in the data they collected over 5 years, only 7% of guns are returned.</p>
+
+<pre><code>##           Status    N
+## 1:    Stolen (S) 9016
+## 2:   Cleared (C)  604
+## 3:   General (G)  199
+## 4: Unfounded (U)   87
+## 5:  Evidence (E)   64
+## 6:      Lost (L)   40
+## 7:     Found (F)    7
+</code></pre>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="class" id="id" style="background:;">
+  <hgroup>
+    <h2>Shiny Web Application</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>There are approximately 2000 records of stolen guns per year in the data set.</p>
+
+<p>The web app allows users to visually explore the data that the the newspaper collected to spot some of the attributes that appear most frequently in the data.</p>
+
+<p><img src="assets/fig/unnamed-chunk-3.png" alt="plot of chunk unnamed-chunk-3"> </p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-3" style="background:;">
+  <hgroup>
+    <h2>Attribute Options</h2>
+  </hgroup>
+  <article data-timings="">
+    <p>The application takes the Top 20 attributes for all of the stolen gun incidents and graphs them.</p>
+
+<p>Users can chose to see the greatest numbers by: <br/></p>
+
+<ul data-columns="2">
+        <li>Location Guns Were Stolen From</li>
+        <li>Type Of Weapon</li>
+        <li>ZIP Code</li>
+        <li>Criminal Offense</li>
+        <li>Gun Make</li>
+        <li>Caliber</li>
+        <li>Street Address</li>
+    </ul>
+    
+
+<p>You can also chose which year you want the graph to display.<br>
+There Chronicle&#39;s data starts in 2008 and was collected until August 2012.</p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-4" style="background:;">
+  <hgroup>
+    <h2>Example Graph: Top Stolen Locations for 2011</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><img src="assets/fig/unnamed-chunk-4.png" alt="plot of chunk unnamed-chunk-4"> </p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Stolen Gun Data In Houston'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='Shiny Web Application'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='Attribute Options'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='Example Graph: Top Stolen Locations for 2011'>
+         4
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
